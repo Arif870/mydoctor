@@ -7,7 +7,7 @@ import Navbar from "./Pages/Shared/Navbar";
 
 function App() {
   return (
-    <div style={{ width: "90%", margin: "auto" }}>
+    <div>
       <Navbar></Navbar>
 
       <Routes>

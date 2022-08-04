@@ -1,6 +1,7 @@
 import React from "react";
 
-const ServiceCard = ({ image, cardHeading }) => {
+const ServiceCard = ({ service }) => {
+  const { image, heading } = service;
   return (
     <>
       <div className="card shadow-xl">
@@ -8,7 +9,7 @@ const ServiceCard = ({ image, cardHeading }) => {
           <img src={image} alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">{cardHeading}</h2>
+          <h2 className="card-title">{heading}</h2>
           <p>
             Sint sed voluptatum corporis excepturi repudiandae beatae adipisci
             quae.

@@ -1,0 +1,13 @@
+.appoinment {
+  background-image: url(../../../assets/images/appointment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.appoinment .card {
+  overflow: initial;
+}
+.appoinment img {
+  width: 400px;
+  margin-top: -50px;
+}
