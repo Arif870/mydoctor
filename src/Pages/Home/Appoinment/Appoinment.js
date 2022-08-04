@@ -1,6 +1,7 @@
 import React from "react";
 import "./Appoinment.css";
 import doctor from "../../../assets/images/doctor-small.png";
+import PrimaryButton from "../../Shared/PrimaryButton";
 
 const Appoinment = () => {
   return (
@@ -8,7 +9,7 @@ const Appoinment = () => {
       <div className="appoinment text-white ">
         <div className="sm:w-8/12 card sm:card-side  mx-auto ">
           <figure>
-            <img src={doctor} alt="doctor" />
+            <img className="hidden lg:block" src={doctor} alt="doctor" />
           </figure>
           <div className="card-body block">
             <h2 className="card-title text-accent">Appoinment</h2>
@@ -20,9 +21,7 @@ const Appoinment = () => {
               blanditiis dignissimos.
             </p>
             <div className="card-actions justify-start">
-              <button className="btn btn-accent text-bold text-white">
-                Get started
-              </button>
+              <PrimaryButton>Get Started</PrimaryButton>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import fluoride from "../../../assets/images/fluoride.png";
 import cabity from "../../../assets/images/cavity.png";
 import teeth from "../../../assets/images/whitening.png";
 import treatment from "../../../assets/images/treatment.png";
+import PrimaryButton from "../../Shared/PrimaryButton";
 
 const Services = () => {
   const services = [
@@ -48,9 +49,7 @@ const Services = () => {
             exercitationem!
           </p>
           <div className="card-actions justify-start">
-            <button className="btn btn-accent text-white text-bold shadow-md">
-              Get Started
-            </button>
+            <PrimaryButton>Get Started</PrimaryButton>
           </div>
         </div>
       </div>
